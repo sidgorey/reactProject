@@ -1,3 +1,6 @@
+html{
+  size: 66.5%;
+}
 body {
   margin: 0;
   padding: 0;
@@ -11,4 +14,62 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+/* svg.remove{
+  position:relative;
+  left: 13rem;  
+  top: -3rem; 
+  
+
+} */
+svg{
+  fill: #5F4BB6;
+}
+.todo-taker{
+  overflow: hidden;
+}
+.todo{
+  width: 20rem;
+  height: 4rem;
+  text-align: left;
+  padding: 2rem;
+  margin: 5rem;
+}
+.todo:hover{
+  outline: 5px solid #86A5D9;
+  
+}
+.todoheader{
+  display: block;
+  width: 15rem !important;
+  height: 2rem !important;
+  background-color: black;
+}
+.dataclass{
+  display:  inline-block;
+  width: 90%;
+}
+.registerformfields{
+  display: block;
+  
+}
+p.notifytext{
+  font-size: 1rem;
+  color: #5F4BB6;
+}
+#userid{
+  font-size: 1.2rem;
+  padding: 1rem;
+  color: #202A25;
+
+}
+#userid:hover{
+  color: #86A5D9;
+}
+.list-dot{
+  margin-right: .5rem;
+}
+.list-item{
+  max-height: 5rem !important;
 }
