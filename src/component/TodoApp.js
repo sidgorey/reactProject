@@ -41,6 +41,7 @@ class TodoApp extends React.Component{
 
 
     
+    
     render(){
        
         console.log("ALl tasks",this.state.tasks)
@@ -76,11 +77,11 @@ class TodoApp extends React.Component{
         newtasks.push({
             id:this.state.maxId + 1,
             title:title,
-            subtitle: subtitle,
-            maxId: this.state.maxId + 1
+            subtitle: subtitle
         });
         this.setState({
-            tasks: newtasks
+            tasks: newtasks,
+            maxId: this.state.maxId + 1
         });
 
         
